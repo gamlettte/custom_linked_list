@@ -22,6 +22,6 @@ bool fn_Insert_into_linked_list(struct s_Linked_list_*, unsigned int, void*);
 
 void* fn_Pop_back_from_linked_list(struct s_Linked_list_*);
 void* fn_Pop_front_from_linked_list(struct s_Linked_list_*);
-
+void fn_Clear_linked_list(struct s_Linked_list_*, void(*)(void*));
 
 #endif
